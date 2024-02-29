@@ -30,7 +30,7 @@ footer {
     font-style: italic;
 }   
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 544px) {
     body {
         font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
     }
