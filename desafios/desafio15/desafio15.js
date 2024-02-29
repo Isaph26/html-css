@@ -34,3 +34,11 @@ function reiniciarJogo() {
     //Código para reiniciar o jogo
     location.reload() //Recarrega a página para reiniciar o jogo
 }    
+
+// Captura a tecla Enter e chama a função gerador()
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Enter') {
+        event.preventDefault(); // Evita que a página seja recarregada
+        gerador();
+    }
+})
