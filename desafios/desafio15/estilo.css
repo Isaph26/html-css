@@ -47,6 +47,10 @@ footer {
     input[type="number"] {
         width: 80%; /* Reduz a largura da caixa de entrada */
     }
+
+    input[type="button"] {
+        margin-top: 7px;
+    }
 }
     body {
         background-color: rosybrown;
