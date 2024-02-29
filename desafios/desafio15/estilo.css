@@ -1,5 +1,23 @@
 @charset "UTF-8";
-@media screen {
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    section {
+        width: 90%; /* Reduz a largura do contêiner principal */
+        max-width: 400px; /* Define uma largura máxima para garantir uma boa legibilidade */
+    }
+
+    section > div > p {
+        font-size: 0.9rem; /* Reduz o tamanho da fonte para telas menores */
+    }
+
+    input[type="number"] {
+        width: 80%; /* Reduz a largura da caixa de entrada */
+    }
+}
     body {
         background-color: rosybrown;
         font: normal 15pt arial;
@@ -34,6 +52,3 @@
         text-align: center;
         font-style: italic;
     }   
-}
-
-body#phone {display: block;}
