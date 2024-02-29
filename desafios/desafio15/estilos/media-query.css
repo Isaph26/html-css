@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 639px) and (max-width: 932px) {
+    body#phone {display: none;}
+}
